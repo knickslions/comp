@@ -1,0 +1,21 @@
+
+public class sixseven {
+
+    /**
+     * @param args the command line arguments
+     * @throws java.io.IOException
+     */
+    public static void main(String args[]) 
+    throws java.io.IOException;static{
+        
+        try {
+            char ch;
+            
+            System.out.println(" press a key followed by enter: ");
+            ch = (char) System.in.read();
+            System.out.println("your key is: " + ch);
+        } catch (IOException ex) {
+            Logger.getLogger(sixseven.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+}
