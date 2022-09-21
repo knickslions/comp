@@ -1,0 +1,34 @@
+public class Scoreboard1 {
+
+    public static void main(String args[]) {
+     
+        int Team1 = 0;
+        int Team2 = 0;
+        int min = 0;
+        int max = 10;
+       
+        int Team1rand1 = (int)Math.floor(Math.random()*(max-min+1)+min);
+        int Team1rand2 = (int)Math.floor(Math.random()*(max-min+1)+min);
+        int Team1rand3 = (int)Math.floor(Math.random()*(max-min+1)+min);
+        int Team1rand4 = (int)Math.floor(Math.random()*(max-min+1)+min);
+        int Team1rand5 = (int)Math.floor(Math.random()*(max-min+1)+min);
+        int Team1rand6 = (int)Math.floor(Math.random()*(max-min+1)+min);       
+        
+        int Team2rand1 = (int)Math.floor(Math.random()*(max-min+1)+min);
+        int Team2rand2 = (int)Math.floor(Math.random()*(max-min+1)+min);
+        int Team2rand3 = (int)Math.floor(Math.random()*(max-min+1)+min);
+        int Team2rand4 = (int)Math.floor(Math.random()*(max-min+1)+min);
+        int Team2rand5 = (int)Math.floor(Math.random()*(max-min+1)+min);
+        int Team2rand6 = (int)Math.floor(Math.random()*(max-min+1)+min);
+       
+       System.out.println("Quarters | 1 | 2 | 3 | 4 | 5 | 6 | FinalScore: " + "\r");
+        System.out.println("Team 1: " + " | " + Team1rand1 + " | " + Team1rand2 + " | " + Team1rand3 + " | " + Team1rand4 + " | " + Team1rand5 + " | " + Team1rand6 + " | " + Team1 + Team1rand1 + Team1rand2 +  Team1rand3 +  Team1rand4 +  Team1rand5 +  Team1rand6 + "\r");
+        System.out.println("Team 2: " + " | " + Team2rand1 + " | " + Team2rand2 + " | " + Team2rand3 + " | " + Team2rand4 + " | " + Team2rand5 + " | " + Team2rand6 + " | " + Team2 + Team2rand1 + Team2rand2 +  Team2rand3 +  Team2rand4 +  Team2rand5 +  Team2rand6 + "\r");
+        
+        if (Team1 > Team2) System.out.println("Team 1 wins!");
+        if (Team1 < Team2) System.out.println("Team 2 wins!");
+       
+        
+        
+    }
+}
